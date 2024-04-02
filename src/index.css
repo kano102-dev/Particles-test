@@ -8,7 +8,8 @@
 :root{
   --black: #000000;
   --white: #ffffff;
-  --body-bg:#FFFCF8
+  --body-bg:#FFFCF8;
+  --blue:#0002FF;
 }
 body {
   font-family: 'Hanken Grotesk';
@@ -95,7 +96,25 @@ h1 span {
 .offset:hover{
   box-shadow:none
 }
+.square-box{
+  height: 16px;
+    width: 16px;
+    background-color: var(--blue);
+    display: inline-block;
+    transform: rotate(-12deg);
+    margin: 0 3px;
+    transition: all 0.2s ease-in;
+}
+.square-box-logo:hover .square-box{
+  transform: rotate(-12deg) translateY(-10px);
+}
 
+@media (max-width:1279px){
+  .square-box.black-box{
+    height: 8px;
+    width: 8px;
+  }
+}
 @media (max-width:1024px){
   h1 {
     font-size: 44px;

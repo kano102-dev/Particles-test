@@ -11,8 +11,8 @@ function App() {
       <header className='bg-[#FFFCF8] md:px-[45px] px-[20px]  border-y-[1px] border-[#000000]'>
         <nav className='flex justify-between items-center'>
           <div className='flex'>
-            <div className='md:text-[25px] text-[18px] color-[#000000] pr-[65px] md:py-[24px] py-[20px] border-r-[1px] border-[#000000] lg:block hidden'>
-              discussion box
+            <div className='md:text-[25px] text-[18px] color-[#000000] pr-[65px] md:py-[24px] py-[20px] border-r-[1px] border-[#000000] lg:block hidden square-box-logo'>
+              discussi<span className='square-box'></span>n b<span className='square-box'></span>x
             </div>
             <div className='md:text-[25px] text-[18px] color-[#000000] md:px-[38px] px-[10px] md:py-[24px] py-[20px] border-r-[1px] border-[#000000]'>
               The Spotlight Experience
@@ -78,7 +78,7 @@ function App() {
 
             <div className='sm:flex block text-center flex-wrap items-center justify-between'>
               <h3 className='text-[14px] xl:text-[33px] ml-[70px] flex flex-wrap items-center'>by <div className='color-[#000000] pl-[10px] py-[24px]'>
-                discussion box
+                discussi<span className='square-box !bg-[#000000] black-box'></span>n b<span className='square-box !bg-[#000000] black-box'></span>x
               </div>
               </h3>
 
