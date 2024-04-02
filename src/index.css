@@ -57,7 +57,7 @@ h1 span {
 .font-family-roboto{
   font-family: "Roboto", sans-serif;
 }
-
+svg{cursor: pointer;}
 .spotlight-before-after::before{
   border-left: 1px solid var(--black);
   content: "";
